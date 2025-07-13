@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import Navbar from '../components/Navbar/Navbar'; // Asegúrate de que esta ruta sea correcta
+import Navbar from './components/Navbar/Navbar.jsx'; // Asegúrate de que esta ruta sea correcta
 
 const Layout = ({ user }) => {
   return (

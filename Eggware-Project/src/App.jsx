@@ -34,7 +34,7 @@ function App() {
       <UserProvider>
         <ToastContainer position="top-right" autoClose={3000} />
         <Routes>
-          {/* Rutas de Admin (protegidas) */}
+          {/* Rutas de Admin */}
           <Route path="/admin" element={<AdminLayout user={user} />}>
             <Route index element={<AdminProducts />} />
             <Route path="products" element={<AdminProducts />} />
